@@ -1,3 +1,45 @@
 .features {
-  
+  padding-top: 64px;
+
+  &__item {
+    padding-top: 100px;
+    text-align: center;
+    margin-bottom: 45px;
+    background-repeat: no-repeat;
+    background-position: center 0px;
+
+    &:first-child {
+      background-image: url("../img/icon-quick.png");
+    }
+
+    &:nth-child(2) {
+      background-image: url("../img/icon-portfolio.png");
+    }
+
+    &:last-child {
+      background-image: url("../img/icon-money.png");
+      margin-bottom: 0;
+    }
+  }
+
+  &__desc {
+    display: block;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #ffffff;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+
+  &__text {
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    color: #bdbdbd;
+    letter-spacing: 0.05em;
+  }
 }
