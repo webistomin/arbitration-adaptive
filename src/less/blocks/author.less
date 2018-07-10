@@ -66,4 +66,43 @@
     letter-spacing: 0.05em;
     text-align: center;
   }
+
+  @media @screen-sm {
+    &__inner {
+      flex-direction: row;
+      margin-left: 140px;
+      padding-left: 160px;
+      padding-top: 125px;
+      padding-bottom: 125px;
+      padding-right: 60px;
+      background-position: -220px 100%;
+    }
+
+    &__desc {
+      margin-bottom: 0;
+    }
+
+    &__name {
+      margin-bottom: 40px;
+    }
+
+    &__post {
+      text-align: left;
+    }
+
+    &__text {
+      text-align: left;
+    }
+
+    &__column {
+      text-align: left;
+      align-items: flex-start;
+
+      &--absolute {
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%) translateX(-50%);
+      }
+    }
+  }
 }

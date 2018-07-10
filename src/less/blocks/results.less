@@ -90,4 +90,27 @@
       margin-bottom: 0;
     }
   }
+
+  @media @screen-sm {
+    &__title {
+      margin-bottom: 60px;
+
+      & br {
+        display: none;
+      }
+    }
+
+    &__list {
+      width: 595px;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    &__item {
+      box-sizing: border-box;
+      width: 250px;
+    }
+  }
 }

@@ -56,7 +56,12 @@
     <div class="container">
       <div class="author__inner">
         <div class="author__column author__column--absolute">
-          <img src="img/author-mobile.jpg" alt="" width="185" height="239" class="author__img">
+          <picture>
+            <source media="(min-width: 1140px)" srcset="img/author-desktop.jpg 1x, img/author-desktop@2x.jpg 2x">
+            <source media="(min-width: 660px)" srcset="img/author-tablet.jpg 1x, img/author-mobile@2x.jpg 2x">
+            <source media="(min-width: 320px)" srcset="img/author-mobile.jpg 1x, img/author-mobile@2x.jpg 2x">
+            <img src="img/author-mobile.jpg" srcset="img/author-mobile.jpg@2x.jpg 2x" alt="Шоколадный ганаш" class="order__img">
+          </picture>
         </div>
         <div class="author__column">
           <span class="author__desc">Автор видеокурса</span>
