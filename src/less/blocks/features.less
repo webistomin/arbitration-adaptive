@@ -42,4 +42,19 @@
     color: #bdbdbd;
     letter-spacing: 0.05em;
   }
+
+  @media @screen-sm {
+    &__list {
+      display: flex;
+      justify-content: flex-start;
+      max-width: 625px;
+      margin: 0 auto;
+    }
+
+    &__item {
+      text-align: left;
+      background-position: left top;
+      margin-bottom: 0;
+    }
+  }
 }
