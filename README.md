@@ -32,3 +32,5 @@
 *	### `package.json`
 *	### `.csscomb.json`
 ---
+
+<img src='mockup/mockup.png'>
