@@ -33,5 +33,5 @@
 *	### `.csscomb.json`
 ---
 <img src='mockup/google.png'>
----
+
 <img src='mockup/mockup.png'>
