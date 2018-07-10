@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5fef029-61ae-41c9-a9ab-8d3ec3737cef" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/img/author.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/screenshots.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/less/blocks/author.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/less/blocks/author.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/less/blocks/features.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/less/blocks/features.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/less/blocks/intro.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/less/blocks/intro.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/less/blocks/page-header.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/less/blocks/page-header.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/less/blocks/results.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/less/blocks/results.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/less/blocks/title.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/less/blocks/title.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/less/global/mixins.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/less/global/mixins.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/less/global/variables.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/less/global/variables.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/less/blocks/download.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/less/blocks/download.less" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,17 +19,17 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="85" column="129" selection-start-line="85" selection-start-column="129" selection-end-line="85" selection-end-column="129" />
+            <state relative-caret-position="369">
+              <caret line="86" column="121" selection-start-line="86" selection-start-column="121" selection-end-line="86" selection-end-column="121" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="results.less" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/less/blocks/results.less">
+      <file leaf-file-name="download.less" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/less/blocks/download.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="197" column="16" selection-start-line="197" selection-start-column="16" selection-end-line="197" selection-end-column="16" />
+            <state relative-caret-position="362">
+              <caret line="162" column="26" selection-start-line="162" selection-start-column="26" selection-end-line="162" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -74,7 +63,6 @@
         <option value="$PROJECT_DIR$/src/js/countdown.js" />
         <option value="$PROJECT_DIR$/src/js/counter.js" />
         <option value="$PROJECT_DIR$/src/js/tippy.js" />
-        <option value="$PROJECT_DIR$/src/less/blocks/download.less" />
         <option value="$PROJECT_DIR$/src/less/blocks/page-footer.less" />
         <option value="$PROJECT_DIR$/src/less/global/mixins.less" />
         <option value="$PROJECT_DIR$/src/less/global/variables.less" />
@@ -85,6 +73,7 @@
         <option value="$PROJECT_DIR$/src/less/blocks/author.less" />
         <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/src/less/blocks/results.less" />
+        <option value="$PROJECT_DIR$/src/less/blocks/download.less" />
       </list>
     </option>
   </component>
@@ -189,12 +178,12 @@
       <workItem from="1531116710721" duration="4723000" />
       <workItem from="1531123101092" duration="191000" />
       <workItem from="1531123320554" duration="1664000" />
-      <workItem from="1531199478702" duration="5717000" />
+      <workItem from="1531199478702" duration="5976000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16072000" />
+    <option name="totallyTimeSpent" value="16331000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -344,13 +333,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/less/blocks/download.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="128" column="23" selection-start-line="128" selection-start-column="23" selection-end-line="128" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/less/blocks/page-footer.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
@@ -414,17 +396,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.html">
+    <entry file="file://$PROJECT_DIR$/src/less/blocks/results.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="85" column="129" selection-start-line="85" selection-start-column="129" selection-end-line="85" selection-end-column="129" />
+        <state relative-caret-position="462">
+          <caret line="222" column="17" selection-start-line="222" selection-start-column="17" selection-end-line="222" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/less/blocks/results.less">
+    <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="197" column="16" selection-start-line="197" selection-start-column="16" selection-end-line="197" selection-end-column="16" />
+        <state relative-caret-position="369">
+          <caret line="86" column="121" selection-start-line="86" selection-start-column="121" selection-end-line="86" selection-end-column="121" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/less/blocks/download.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="162" column="26" selection-start-line="162" selection-start-column="26" selection-end-line="162" selection-end-column="26" />
         </state>
       </provider>
     </entry>
