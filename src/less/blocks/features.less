@@ -57,4 +57,41 @@
       margin-bottom: 0;
     }
   }
+
+  @media @screen-lg {
+
+    &__list {
+      max-width: 900px;
+      justify-content: space-around;
+    }
+
+    &__item {
+      width: 200px;
+      position: relative;
+
+      &::before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: -86px;
+        transform: translateX(-50%) translateY(-50%);
+        width: 112px;
+        height: 2px;
+        background-color: #242930;
+      }
+
+      &:last-child {
+        &::after {
+          content: "";
+          position: absolute;
+          top: 50%;
+          right: -120px;
+          transform: translateX(-50%) translateY(-50%);
+          width: 112px;
+          height: 2px;
+          background-color: #242930;
+        }
+      }
+    }
+  }
 }

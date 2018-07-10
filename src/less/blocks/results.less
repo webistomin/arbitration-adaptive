@@ -1,6 +1,10 @@
 .results {
   padding-top: 130px;
 
+  &__break {
+    display: none;
+  }
+
   &__title {
     text-align: left;
     position: relative;
@@ -94,8 +98,10 @@
   @media @screen-sm {
     &__title {
       margin-bottom: 60px;
+    }
 
-      & br {
+    &__break {
+      &--tablet {
         display: none;
       }
     }
@@ -111,6 +117,115 @@
     &__item {
       box-sizing: border-box;
       width: 250px;
+    }
+  }
+
+  @media @screen-lg {
+    &__break {
+      &--tablet {
+        display: none;
+      }
+
+      &--desktop {
+        display: block;
+      }
+    }
+
+    &__list {
+      width: auto;
+    }
+
+    background-image: url("../img/chart.png"), url("../img/lines.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding-bottom: 400px;
+
+    &__chart {
+      position: relative;
+    }
+
+    &__item {
+      padding: 0;
+      position: absolute;
+      left: -9999px;
+
+      &:first-child {
+        left: 0;
+        top: 170px;
+
+        &::after {
+          left: -25px;
+          top: 5px;
+        }
+
+        &::before {
+          left: 0;
+          top: 122px;
+        }
+      }
+
+      &:nth-child(2) {
+        left: 300px;
+        top: 50px;
+
+        &::after {
+          left: -25px;
+          top: 5px;
+        }
+
+        &::before {
+          left: 0;
+          top: 180px;
+        }
+      }
+
+      &:nth-child(3) {
+        left: 530px;
+        top: 160px;
+
+        &::after {
+          left: -25px;
+          top: 5px;
+        }
+
+        &::before {
+          left: 0;
+          top: 160px;
+        }
+      }
+
+      &:nth-child(4) {
+        left: 800px;
+        top: 50px;
+
+        &::after {
+          left: -25px;
+          top: 5px;
+        }
+
+        &::before {
+          left: 0;
+          top: 130px;
+        }
+      }
+
+      &:last-child {
+        left: 1000px;
+        top: 30px;
+
+        &::after {
+          left: -25px;
+          top: 5px;
+        }
+
+        &::before {
+          left: 0;
+          top: 110px;
+        }
+      }
+
+
+
     }
   }
 }
